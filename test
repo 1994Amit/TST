@@ -1,0 +1,25 @@
+Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target.
+
+Write a function to return the indices of the two numbers (i.e. the pair) such that they add up to the given target.
+
+Def find_pair(numbers, sum):
+  numbers.sort()
+  (lowest_number,highest_number)=(0,len(numbers-1)
+  while low<high:
+    if number[lowest_number]+number[highest_number] == sum:
+      print("["+lowest_number"+","+highest_number+"]")
+      
+    if number[lowest_number]+number[highest_number] < sum:
+      lowest_number=lowest_number+1
+    else
+       highest_number=highest_number+1
+ 
+ 
+ if _name_=='_main':
+  numbers=[] //put any numbers here
+  sum= //put any sum
+  
+  find_pair(numbers,sum)
+      
+    
+    
